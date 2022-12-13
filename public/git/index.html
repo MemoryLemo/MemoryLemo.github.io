@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Git - Yingxu的博客-每天都是一年中最美好的日子</title><meta name="Description" content="欢迎来到我的博客"><meta property="og:title" content="Git" />
+<meta property="og:description" content="Git 一、Git是什么？ Git是目前世界上最先进的分布式版本控制系统。 Git是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://example.org/git/" /><meta property="og:image" content="http://example.org/logo.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2022-12-13T23:05:20+08:00" />
+<meta property="article:modified_time" content="2022-12-13T23:05:20+08:00" /><meta property="og:site_name" content="Yingxu的博客-每天都是一年中最美好的日子" />
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="http://example.org/logo.png"/>
+
+<meta name="twitter:title" content="Git"/>
+<meta name="twitter:description" content="Git 一、Git是什么？ Git是目前世界上最先进的分布式版本控制系统。 Git是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的"/>
+<meta name="application-name" content="我的网站">
+<meta name="apple-mobile-web-app-title" content="我的网站"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://example.org/git/" /><link rel="prev" href="http://example.org/zsh/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Git",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/example.org\/git\/"
+        },"genre": "posts","wordcount":  2129 ,
+        "url": "http:\/\/example.org\/git\/","datePublished": "2022-12-13T23:05:20+08:00","dateModified": "2022-12-13T23:05:20+08:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Yingxu"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Yingxu的博客-每天都是一年中最美好的日子"></a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a><a href="javascript:void(0);" class="menu-item language" title="选择语言">
+                    <i class="fa fa-globe" aria-hidden="true"></i>                      
+                    <select class="language-select" id="language-select-desktop" onchange="location = this.value;"><option value="/git/" selected>简体中文</option></select>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Yingxu的博客-每天都是一年中最美好的日子"></a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="搜索文章标题或内容..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="搜索">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="清空">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        取消
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a href="javascript:void(0);" class="menu-item theme-switch" title="切换主题">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a><a href="javascript:void(0);" class="menu-item" title="选择语言">
+                    <i class="fa fa-globe fa-fw" aria-hidden="true"></i>
+                    <select class="language-select" onchange="location = this.value;"><option value="/git/" selected>简体中文</option></select>
+                </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">目录</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Git</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Yingxu</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2022-12-13">2022-12-13</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 2129 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 5 分钟&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="true">
+                <div class="details-summary toc-title">
+                    <span>目录</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#一git是什么">一、Git是什么？</a></li>
+    <li><a href="#二svn与git的最主要的区别">二、SVN与Git的最主要的区别？</a></li>
+    <li><a href="#三git如何操作">三、Git如何操作</a>
+      <ul>
+        <li><a href="#创建版本库">创建版本库</a></li>
+      </ul>
+    </li>
+    <li><a href="#四git分支管理">四、Git分支管理</a></li>
+    <li><a href="#五git常用命令">五、Git常用命令</a>
+      <ul>
+        <li><a href="#初始化操作">初始化操作</a></li>
+        <li><a href="#创建新版本库">创建新版本库</a></li>
+        <li><a href="#修改和提交">修改和提交</a></li>
+        <li><a href="#查看提交历史">查看提交历史</a></li>
+        <li><a href="#撤消操作">撤消操作</a></li>
+        <li><a href="#分支与标签">分支与标签</a></li>
+        <li><a href="#合并与衍合">合并与衍合</a></li>
+        <li><a href="#远程操作">远程操作</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="git">Git</h1>
+<h2 id="一git是什么">一、Git是什么？</h2>
+<hr>
+<p>Git是目前世界上最先进的<a href="https://so.csdn.net/so/search?q=%e5%88%86%e5%b8%83%e5%bc%8f&amp;spm=1001.2101.3001.7020" target="_blank" rel="noopener noreffer ">分布式</a>版本控制系统。</p>
+<p>Git是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的项目版本管理。其可运行于Linux、Mac OS、Windows平台。Git已经成为各大公司管理项目版本的首选！</p>
+<pre><code>   Git可以使用简单直观的GUI图形化界面进行使用，但并不是所有平台和场景都可以使用Git的图形化界面。更多情况下，我们都是使用Git的命令行进行操作，那么本文讲解一下如何使用Git命令行进行相关操作。
+</code></pre>
+<p>完整的Git框架有四部分，分别是工作目录（Working Directory）、暂存区(Stage/Index)、资源库(Repository或Git Directory)、远程仓库(Remote Directory)。我们先来看一下这几个概念：</p>
+<p>工作目录（Workspace）：所有版本的目录。</p>
+<p>暂存区（Index / Stage）：修改文件后，这里临时保存着你当前的修改。</p>
+<p>资源库（Repository）：也就是本地仓库！你确定自己修改的文件后，可以将目前确定修改的文件放入这个本地仓库。</p>
+<p>远程仓库（Remote）：网络端的仓库，你可以把Git的项目文件放在指定网络平台保管或者开源。</p>
+<pre><code>   上述就是一些概念性的东西，可能初学者不好理解。在这里读者画一张图来表述这个框架的关系以及Git命令之间的关系！这幅框架图十分重要，最常使用的命令几乎都在图中标识出来了，希望大家好好理解一下！如下图所示。
+</code></pre>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://img-blog.csdnimg.cn/img_convert/cf32fcc41799d64541cb6c9b5f9373a2.png#pic_center"
+        data-srcset="https://img-blog.csdnimg.cn/img_convert/cf32fcc41799d64541cb6c9b5f9373a2.png#pic_center, https://img-blog.csdnimg.cn/img_convert/cf32fcc41799d64541cb6c9b5f9373a2.png#pic_center 1.5x, https://img-blog.csdnimg.cn/img_convert/cf32fcc41799d64541cb6c9b5f9373a2.png#pic_center 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdnimg.cn/img_convert/cf32fcc41799d64541cb6c9b5f9373a2.png#pic_center"
+        title="工作原理 / 流程：" /></p>
+<h2 id="二svn与git的最主要的区别">二、SVN与Git的最主要的区别？</h2>
+<hr>
+<p>SVN是集中式版本控制系统，版本库是集中放在中央服务器的，而干活的时候，用的都是自己的电脑，所以首先要从中央服务器哪里得到最新的版本，然后干活，干完后，需要把自己做完的活推送到中央服务器。集中式版本控制系统是必须联网才能工作，如果在局域网还可以，带宽够大，速度够快，如果在互联网下，如果网速慢的话，就纳闷了。</p>
+<p>Git是分布式版本控制系统，那么它就没有中央服务器的，每个人的电脑就是一个完整的版本库，这样，工作的时候就不需要联网了，因为版本都是在自己的电脑上。既然每个人的电脑都有一个完整的版本库，那多个人如何协作呢？比如说<u>自己在电脑上改了文件A，其他人也在电脑上改了文件A，这时，你们两之间只需把各自的修改推送给对方，就可以互相看到对方的修改了。</u></p>
+<p>用好 Git 很难: 很容易就犯错了，然后想自己弥补犯下的错，简直太难了。查阅 Git 文档简直就像是个 “鸡生蛋 蛋生鸡” 的问题。</p>
+<h2 id="三git如何操作">三、Git如何操作</h2>
+<h3 id="创建版本库">创建版本库</h3>
+<p>什么是版本库？版本库又名仓库，英文名repository,你可以简单的理解一个目录，这个目录里面的所有文件都可以被Git管理起来，每个文件的修改，删除，Git都能跟踪，以便任何时刻都可以追踪历史，或者在将来某个时刻还可以将文件”还原”。</p>
+<p>（1）在空白处右键，点击“Git Bash Here”打开Git命令行窗口</p>
+<p>下面这个用户名就写github的用户名，邮箱地址就写github的邮箱地址</p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://img-blog.csdnimg.cn/2297bcfaaf914f83aa70231f4134c9dd.png#pic_center"
+        data-srcset="https://img-blog.csdnimg.cn/2297bcfaaf914f83aa70231f4134c9dd.png#pic_center, https://img-blog.csdnimg.cn/2297bcfaaf914f83aa70231f4134c9dd.png#pic_center 1.5x, https://img-blog.csdnimg.cn/2297bcfaaf914f83aa70231f4134c9dd.png#pic_center 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdnimg.cn/2297bcfaaf914f83aa70231f4134c9dd.png#pic_center"
+        title="在这里插入图片描述" /></p>
+<p>（2）创建仓库</p>
+<p>使用git去管理项目，可以使用一个空目录学习git管理</p>
+<p><strong>tips：目录路径不要有中文！</strong></p>
+<p><img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://img-blog.csdnimg.cn/338eae3d7e614e4392337d4d65216a7e.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5p6X5p-a5pme,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center"
+        data-srcset="https://img-blog.csdnimg.cn/338eae3d7e614e4392337d4d65216a7e.png?x-oss-process=image/watermark%2ctype_d3F5LXplbmhlaQ%2cshadow_50%2ctext_Q1NETiBA5p6X5p-a5pme%2csize_20%2ccolor_FFFFFF%2ct_70%2cg_se%2cx_16#pic_center, https://img-blog.csdnimg.cn/338eae3d7e614e4392337d4d65216a7e.png?x-oss-process=image/watermark%2ctype_d3F5LXplbmhlaQ%2cshadow_50%2ctext_Q1NETiBA5p6X5p-a5pme%2csize_20%2ccolor_FFFFFF%2ct_70%2cg_se%2cx_16#pic_center 1.5x, https://img-blog.csdnimg.cn/338eae3d7e614e4392337d4d65216a7e.png?x-oss-process=image/watermark%2ctype_d3F5LXplbmhlaQ%2cshadow_50%2ctext_Q1NETiBA5p6X5p-a5pme%2csize_20%2ccolor_FFFFFF%2ct_70%2cg_se%2cx_16#pic_center 2x"
+        data-sizes="auto"
+        alt="https://img-blog.csdnimg.cn/338eae3d7e614e4392337d4d65216a7e.png?x-oss-process=image/watermark,type_d3F5LXplbmhlaQ,shadow_50,text_Q1NETiBA5p6X5p-a5pme,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center"
+        title="在这里插入图片描述" /></p>
+<p><strong>注意：这个目录执行了初始化操作，会在根目录这边生成一个.git的隐藏目录，这个目录是git所创建，不能删除和更改！</strong></p>
+<h2 id="四git分支管理">四、Git分支管理</h2>
+<p>在公司进行开发的时候，是多人协同开发，每个人互不干扰，所以git也要进行分支管理</p>
+<h2 id="五git常用命令">五、Git常用命令</h2>
+<h3 id="初始化操作">初始化操作</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ git config -global user.name &lt;name&gt; <span class="c1">#设置提交者名字</span>
+</span></span><span class="line"><span class="cl">$ git config -global user.email &lt;email&gt; <span class="c1">#设置提交者邮箱</span>
+</span></span><span class="line"><span class="cl">$ git config -global core.editor &lt;editor&gt; <span class="c1">#设置默认文本编辑器</span>
+</span></span><span class="line"><span class="cl">$ git config -global merge.tool &lt;tool&gt; <span class="c1">#设置解决合并冲突时差异分析工具</span>
+</span></span><span class="line"><span class="cl">$ git config -list <span class="c1">#检查已有的配置信息</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="创建新版本库">创建新版本库</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ git clone &lt;url&gt; <span class="c1">#克隆远程版本库</span>
+</span></span><span class="line"><span class="cl">$ git init <span class="c1">#初始化本地版本库</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="修改和提交">修改和提交</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ git add . <span class="c1">#添加所有改动过的文件</span>
+</span></span><span class="line"><span class="cl">$ git add &lt;file&gt; <span class="c1">#添加指定的文件</span>
+</span></span><span class="line"><span class="cl">$ git mv &lt;old&gt; &lt;new&gt; <span class="c1">#文件重命名</span>
+</span></span><span class="line"><span class="cl">$ git rm &lt;file&gt; <span class="c1">#删除文件</span>
+</span></span><span class="line"><span class="cl">$ git rm -cached &lt;file&gt; <span class="c1">#停止跟踪文件但不删除</span>
+</span></span><span class="line"><span class="cl">$ git commit -m &lt;file&gt; <span class="c1">#提交指定文件</span>
+</span></span><span class="line"><span class="cl">$ git commit -m “commit message” <span class="c1">#提交所有更新过的文件</span>
+</span></span><span class="line"><span class="cl">$ git commit -amend <span class="c1">#修改最后一次提交</span>
+</span></span><span class="line"><span class="cl">$ git commit -C HEAD -a -amend <span class="c1">#增补提交（不会产生新的提交历史纪录）</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="查看提交历史">查看提交历史</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ git log <span class="c1">#查看提交历史</span>
+</span></span><span class="line"><span class="cl">$ git log -p &lt;file&gt; <span class="c1">#查看指定文件的提交历史</span>
+</span></span><span class="line"><span class="cl">$ git blame &lt;file&gt; <span class="c1">#以列表方式查看指定文件的提交历史</span>
+</span></span><span class="line"><span class="cl">$ gitk <span class="c1">#查看当前分支历史纪录</span>
+</span></span><span class="line"><span class="cl">$ gitk &lt;branch&gt; <span class="c1">#查看某分支历史纪录</span>
+</span></span><span class="line"><span class="cl">$ gitk --all <span class="c1">#查看所有分支历史纪录</span>
+</span></span><span class="line"><span class="cl">$ git branch -v <span class="c1">#每个分支最后的提交</span>
+</span></span><span class="line"><span class="cl">$ git status <span class="c1">#查看当前状态</span>
+</span></span><span class="line"><span class="cl">$ git diff <span class="c1">#查看变更内容</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="撤消操作">撤消操作</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ git reset -hard HEAD <span class="c1">#撤消工作目录中所有未提交文件的修改内容</span>
+</span></span><span class="line"><span class="cl">$ git checkout HEAD &lt;file1&gt; &lt;file2&gt; <span class="c1">#撤消指定的未提交文件的修改内容</span>
+</span></span><span class="line"><span class="cl">$ git checkout HEAD. <span class="c1">#撤消所有文件</span>
+</span></span><span class="line"><span class="cl">$ git revert &lt;commit&gt; <span class="c1">#撤消指定的提交</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="分支与标签">分支与标签</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ git branch <span class="c1">#显示所有本地分支</span>
+</span></span><span class="line"><span class="cl">$ git checkout &lt;branch/tagname&gt; <span class="c1">#切换到指定分支或标签</span>
+</span></span><span class="line"><span class="cl">$ git branch &lt;new-branch&gt; <span class="c1">#创建新分支</span>
+</span></span><span class="line"><span class="cl">$ git branch -d &lt;branch&gt; <span class="c1">#删除本地分支</span>
+</span></span><span class="line"><span class="cl">$ git tag <span class="c1">#列出所有本地标签</span>
+</span></span><span class="line"><span class="cl">$ git tag &lt;tagname&gt; <span class="c1">#基于最新提交创建标签</span>
+</span></span><span class="line"><span class="cl">$ git tag -d &lt;tagname&gt; <span class="c1">#删除标签</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="合并与衍合">合并与衍合</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ git merge &lt;branch&gt; <span class="c1">#合并指定分支到当前分支</span>
+</span></span><span class="line"><span class="cl">$ git rebase &lt;branch&gt; <span class="c1">#衍合指定分支到当前分支</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><h3 id="远程操作">远程操作</h3>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl">$ git remote -v <span class="c1">#查看远程版本库信息</span>
+</span></span><span class="line"><span class="cl">$ git remote show &lt;remote&gt; <span class="c1">#查看指定远程版本库信息</span>
+</span></span><span class="line"><span class="cl">$ git remote add &lt;remote&gt; &lt;url&gt; <span class="c1">#添加远程版本库</span>
+</span></span><span class="line"><span class="cl">$ git fetch &lt;remote&gt; <span class="c1">#从远程库获取代码</span>
+</span></span><span class="line"><span class="cl">$ git pull &lt;remote&gt; &lt;branch&gt; <span class="c1">#下载代码及快速合并</span>
+</span></span><span class="line"><span class="cl">$ git push &lt;remote&gt; &lt;branch&gt; <span class="c1">#上传代码及快速合并</span>
+</span></span><span class="line"><span class="cl">$ git push &lt;remote&gt; : &lt;branch&gt;/&lt;tagname&gt; <span class="c1">#删除远程分支或标签</span>
+</span></span><span class="line"><span class="cl">$ git push -tags <span class="c1">#上传所有标签</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div></div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>更新于 2022-12-13</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/git/index.md" target="_blank">阅读原始文档</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="http://example.org/git/" data-title="Git" data-via="xxxx"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="http://example.org/git/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="http://example.org/git/" data-title="Git"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="http://example.org/git/" data-title="Git"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="http://example.org/git/" data-title="Git"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/zsh/" class="prev" rel="prev" title="ZSH"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>ZSH</a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">由 <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.98.0">Hugo</a> 强力驱动 | 主题 - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank">Yingxu</a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="回到顶部">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="查看评论">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.stemmer.support.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.zh.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"复制到剪贴板","maxShownLines":50},"comment":{},"cookieconsent":{"content":{"dismiss":"同意","link":"了解更多","message":"本网站使用 Cookies 来改善您的浏览体验."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","lunrLanguageCode":"zh","lunrSegmentitURL":"/lib/lunr/lunr.segmentit.js","maxResultLength":10,"noResultsFound":"没有找到结果","snippetLength":50,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

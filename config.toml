@@ -278,7 +278,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     [params.home.profile]
       enable = true
       # Gravatar 邮箱，用于优先在主页显示的头像
-      #gravatarEmail = "2875760424@qq.com"
+      gravatarEmail = "2875760424@qq.com"
       # 主页显示头像的 URL
       #avatarURL = "/images/avatar.png"
       #  主页显示的网站标题 (支持 HTML 格式)

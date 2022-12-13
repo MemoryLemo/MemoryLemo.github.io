@@ -4,15 +4,31 @@
         <link>http://example.org/</link>
         <description>欢迎来到我的博客</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>15920609389 (Yingxu)</managingEditor>
-            <webMaster>15920609389 (Yingxu)</webMaster><lastBuildDate>Sat, 10 Dec 2022 09:48:04 &#43;0800</lastBuildDate>
+            <webMaster>15920609389 (Yingxu)</webMaster><lastBuildDate>Tue, 13 Dec 2022 23:05:20 &#43;0800</lastBuildDate>
             <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>To_My_Lovely_Student_GDN</title>
-    <link>http://example.org/to_my_lovely_student_gdn/</link>
-    <pubDate>Sat, 10 Dec 2022 09:48:04 &#43;0800</pubDate>
+    <title>Git</title>
+    <link>http://example.org/git/</link>
+    <pubDate>Tue, 13 Dec 2022 23:05:20 &#43;0800</pubDate>
     <author>Yingxu</author>
-    <guid>http://example.org/to_my_lovely_student_gdn/</guid>
-    <description><![CDATA[最近的日子里， 接触下来， 我发现你是一个非常乐观开朗的女孩子， 你说很喜欢旅游，领略自然的美好风光， 这是一份对生活的热爱， 你说很喜欢音乐，聆听歌]]></description>
+    <guid>http://example.org/git/</guid>
+    <description><![CDATA[Git 一、Git是什么？ Git是目前世界上最先进的分布式版本控制系统。 Git是一个开源的分布式版本控制系统，可以有效、高速地处理从很小到非常大的]]></description>
+</item>
+<item>
+    <title>ZSH</title>
+    <link>http://example.org/zsh/</link>
+    <pubDate>Tue, 13 Dec 2022 23:05:16 &#43;0800</pubDate>
+    <author>Yingxu</author>
+    <guid>http://example.org/zsh/</guid>
+    <description><![CDATA[ZSH zsh介绍 zsh 是一个兼容 bash 的 shell，相较 bash 具有以下优点： Tab 补全功能强大。命令、命令参数、文件路径均可以补全。 插件丰富。快速输入以前使用过]]></description>
+</item>
+<item>
+    <title>Docker</title>
+    <link>http://example.org/docker/</link>
+    <pubDate>Tue, 13 Dec 2022 23:02:39 &#43;0800</pubDate>
+    <author>Yingxu</author>
+    <guid>http://example.org/docker/</guid>
+    <description><![CDATA[Docker基本命令 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60]]></description>
 </item>
 </channel>
 </rss>
