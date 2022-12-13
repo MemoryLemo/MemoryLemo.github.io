@@ -2,45 +2,44 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>https://MemoryLemo.github.io/first_post/</loc><lastmod>2022-12-04T17:57:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://MemoryLemo.github.io/posts/</loc><lastmod>2022-12-04T17:57:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
-            <loc>https://MemoryLemo.github.io/</loc><lastmod>2022-12-04T17:57:31&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
+            <loc>http://example.org/posts/</loc><lastmod>2022-12-10T09:48:04&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/to_my_lovely_student_gdn/</loc><lastmod>2022-12-10T09:48:04&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority></url><url>
+            <loc>http://example.org/</loc><lastmod>2022-12-10T09:48:04&#43;08:00</lastmod><changefreq>weekly</changefreq><priority>1</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://MemoryLemo.github.io/en/"
+                        href="http://example.org/en/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="fr"
-                        href="https://MemoryLemo.github.io/fr/"
+                        href="http://example.org/fr/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://MemoryLemo.github.io/"
+                    href="http://example.org/"
                     /></url><url>
-            <loc>https://MemoryLemo.github.io/docker/</loc><changefreq>weekly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://MemoryLemo.github.io/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://example.org/categories/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://MemoryLemo.github.io/en/categories/"
+                        href="http://example.org/en/categories/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="fr"
-                        href="https://MemoryLemo.github.io/fr/categories/"
+                        href="http://example.org/fr/categories/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://MemoryLemo.github.io/categories/"
+                    href="http://example.org/categories/"
                     /></url><url>
-            <loc>https://MemoryLemo.github.io/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
+            <loc>http://example.org/tags/</loc><changefreq>weekly</changefreq><priority>0.5</priority><xhtml:link
                         rel="alternate"
                         hreflang="en"
-                        href="https://MemoryLemo.github.io/en/tags/"
+                        href="http://example.org/en/tags/"
                         /><xhtml:link
                         rel="alternate"
                         hreflang="fr"
-                        href="https://MemoryLemo.github.io/fr/tags/"
+                        href="http://example.org/fr/tags/"
                         /><xhtml:link
                     rel="alternate"
                     hreflang="zh-cn"
-                    href="https://MemoryLemo.github.io/tags/"
+                    href="http://example.org/tags/"
                     /></url></urlset>

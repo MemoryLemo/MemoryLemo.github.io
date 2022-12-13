@@ -110,8 +110,8 @@ defaultContentLanguage = "zh-cn"
 
 # 作者配置
 [author]
-  name = "xxxx"
-  email = ""
+  name = "Yingxu"
+  email = "15920609389"
   link = ""
 
 # 菜单配置
@@ -174,7 +174,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # 网站标题, 用于 Open Graph 和 Twitter Cards
   title = "我的网站"
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
-  description = "这是我的全新 Hugo 网站"
+  description = "欢迎来到我的博客"
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = ["/logo.png"]
 
@@ -278,13 +278,13 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     [params.home.profile]
       enable = true
       # Gravatar 邮箱，用于优先在主页显示的头像
-      gravatarEmail = ""
+      gravatarEmail = "2875760424@qq.com"
       # 主页显示头像的 URL
-      avatarURL = "/images/avatar.png"
+      #avatarURL = "/images/avatar.png"
       #  主页显示的网站标题 (支持 HTML 格式)
       title = ""
       # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "这是我的全新 Hugo 网站"
+      subtitle = "欢迎来到我的Hugo博客"
       # 是否为副标题显示打字机动画
       typeit = true
       # 是否显示社交账号
@@ -345,7 +345,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     Strava = ""
     Skype = ""
     Whatsapp = ""
-    Zhihu = ""
+    Zhihu = "不知"
     Douban = ""
     Angellist = ""
     Slidershare = ""
@@ -363,7 +363,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     Gitea = ""
     XMPP = ""
     Matrix = ""
-    Bilibili = ""
+    Bilibili = "15920609389"
     Discord = ""
     DiscordInvite = ""
     Lichess = ""
@@ -374,8 +374,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     Plume = ""
     HackTheBox = ""
     RootMe= ""
-    Phone = ""
-    Email = "xxxx@xxxx.com"
+    Phone = "15920609389"
+    Email = "1250332880@qq.com"
     RSS = true # 
 
   #  文章页面全局配置

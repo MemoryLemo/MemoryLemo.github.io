@@ -1,9 +1,10 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>My New Hugo Site</title>
-        <link>https://MemoryLemo.github.io/en/</link>
-        <description>这是我的全新 Hugo 网站</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language>
-            <atom:link href="https://MemoryLemo.github.io/en/index.xml" rel="self" type="application/rss+xml" />
+        <title>Yingxu&#39;s Blog-Every day is the best day of the year</title>
+        <link>http://example.org/en/</link>
+        <description>欢迎来到我的博客</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>15920609389 (Yingxu)</managingEditor>
+            <webMaster>15920609389 (Yingxu)</webMaster>
+            <atom:link href="http://example.org/en/index.xml" rel="self" type="application/rss+xml" />
         </channel>
 </rss>

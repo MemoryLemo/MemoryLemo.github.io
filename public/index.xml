@@ -1,25 +1,18 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>我的全新 Hugo 网站</title>
-        <link>https://MemoryLemo.github.io/</link>
-        <description>这是我的全新 Hugo 网站</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Sun, 04 Dec 2022 17:57:31 &#43;0800</lastBuildDate>
-            <atom:link href="https://MemoryLemo.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <title>Yingxu的博客-每天都是一年中最美好的日子</title>
+        <link>http://example.org/</link>
+        <description>欢迎来到我的博客</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>15920609389 (Yingxu)</managingEditor>
+            <webMaster>15920609389 (Yingxu)</webMaster><lastBuildDate>Sat, 10 Dec 2022 09:48:04 &#43;0800</lastBuildDate>
+            <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>First_post</title>
-    <link>https://MemoryLemo.github.io/first_post/</link>
-    <pubDate>Sun, 04 Dec 2022 17:57:31 &#43;0800</pubDate>
-    <author>xxxx</author>
-    <guid>https://MemoryLemo.github.io/first_post/</guid>
-    <description><![CDATA[]]></description>
-</item>
-<item>
-    <title></title>
-    <link>https://MemoryLemo.github.io/docker/</link>
-    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
-    <author>xxxx</author>
-    <guid>https://MemoryLemo.github.io/docker/</guid>
-    <description><![CDATA[Docker基本命令 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60]]></description>
+    <title>To_My_Lovely_Student_GDN</title>
+    <link>http://example.org/to_my_lovely_student_gdn/</link>
+    <pubDate>Sat, 10 Dec 2022 09:48:04 &#43;0800</pubDate>
+    <author>Yingxu</author>
+    <guid>http://example.org/to_my_lovely_student_gdn/</guid>
+    <description><![CDATA[最近的日子里， 接触下来， 我发现你是一个非常乐观开朗的女孩子， 你说很喜欢旅游，领略自然的美好风光， 这是一份对生活的热爱， 你说很喜欢音乐，聆听歌]]></description>
 </item>
 </channel>
 </rss>
